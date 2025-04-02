@@ -34,7 +34,8 @@ This project demonstrates a **scalable data pipeline** using **Microsoft Azure**
    ⬇ (Connected to Power BI)
 📊 Power BI Dashboard
 
-![Uploading NycTaxiArch.png…]()
+![NycTaxiArch](https://github.com/user-attachments/assets/06654f39-c2c2-4975-be72-fa0a954d176d)
+
 
 ```
 
