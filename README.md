@@ -66,8 +66,6 @@ This project demonstrates a **scalable data pipeline** using **Microsoft Azure**
 ## 🔚 Conclusion
 This project showcases an **end-to-end data engineering workflow**, leveraging **Azure Data Factory, ADLS, Databricks, and Power BI**. By implementing the **Medallion Architecture**, the pipeline ensures a structured approach to data ingestion, transformation, and analysis. This setup not only enables **scalability and performance optimization** but also ensures **security with Microsoft Entra ID authentication**. 
 
-Future improvements could include **real-time data processing** and **enhanced dashboard interactivity**. This project lays a strong foundation for **large-scale data analytics solutions**.
-
 ---
 
 🚀 **Happy Coding!**
