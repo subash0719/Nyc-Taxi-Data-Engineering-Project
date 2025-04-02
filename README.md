@@ -23,15 +23,15 @@ This project demonstrates a **scalable data pipeline** using **Microsoft Azure**
 
 ## 🔄 Data Pipeline Architecture
 
-🚕 NYC Taxi API / GitHub CSVs 
+-🚕 NYC Taxi API / GitHub CSVs 
    ⬇ (Ingest via ADF)
-🛢 ADLS - Bronze Layer (Raw Data)
+-🛢 ADLS - Bronze Layer (Raw Data)
    ⬇ (Processing in Databricks)
-🪙 ADLS - Silver Layer (Cleaned & Processed Data)
+-🪙 ADLS - Silver Layer (Cleaned & Processed Data)
    ⬇ (Transformation & Delta Table Creation)
-💰 ADLS - Gold Layer (Optimized Data for Analysis)
+-💰 ADLS - Gold Layer (Optimized Data for Analysis)
    ⬇ (Connected to Power BI)
-📊 Power BI Dashboard
+-📊 Power BI Dashboard
 
 ![NycTaxiArch](https://github.com/user-attachments/assets/06654f39-c2c2-4975-be72-fa0a954d176d)
 
