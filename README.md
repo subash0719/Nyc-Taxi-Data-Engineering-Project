@@ -5,33 +5,39 @@
 ![Power BI](https://img.shields.io/badge/Visualization-Power%20BI-yellow)
 
 ## 📌 Overview
-This project demonstrates a **scalable data pipeline** using **Microsoft Azure** to process and analyze NYC taxi data. The pipeline follows the **Medallion Architecture (Bronze, Silver, Gold)**, leveraging **Azure Data Factory (ADF), Azure Data Lake Storage (ADLS), Databricks, and Power BI**.
+This project demonstrates a **scalable data pipeline** using **Microsoft Azure** to process and analyze NYC taxi data. Following the **Medallion Architecture (Bronze, Silver, Gold)** framework, this workflow strategically integrates **Azure Data Factory (ADF), Azure Data Lake Storage (ADLS), Databricks, and Power BI** to ensure scalability, security, and analytical efficiency.
 
 ---
 
 ## 🚀 Tech Stack & Tools
 
-| Technology    | Purpose |
-|--------------|---------|
-| **ADF (Azure Data Factory)** | Data ingestion from NYC Taxi Web API & GitHub CSVs |
-| **ADLS (Azure Data Lake Storage)** | Stores raw & processed data (Bronze, Silver, Gold) |
-| **Microsoft Entra ID** | Secure authentication for accessing ADLS from Databricks |
-| **Databricks** | Data transformation and Delta Table creation |
-| **Power BI** | Data visualization and analytics |
+| 🛠 **Technology**    | 🔍 **Purpose** |
+|--------------------|--------------|
+| ⚙️ **ADF (Azure Data Factory)** | Automates data ingestion from the NYC Taxi Web API & GitHub CSVs |
+| 🛢 **ADLS (Azure Data Lake Storage)** | Provides a scalable storage solution for raw, processed, and analytical data |
+| 🔐 **Microsoft Entra ID** | Ensures secure authentication and access management for Databricks and ADLS |
+| 🔥 **Databricks** | Supports advanced data transformation, ETL processes, and Delta Table management |
+| 📊 **Power BI** | Enables interactive data visualization and business intelligence insights |
 
 ---
 
 ## 🔄 Data Pipeline Architecture
 
--🚕 NYC Taxi API / GitHub CSVs 
-   ⬇ (Ingest via ADF)
--🛢 ADLS - Bronze Layer (Raw Data)
-   ⬇ (Processing in Databricks)
--🪙 ADLS - Silver Layer (Cleaned & Processed Data)
-   ⬇ (Transformation & Delta Table Creation)
--💰 ADLS - Gold Layer (Optimized Data for Analysis)
-   ⬇ (Connected to Power BI)
--📊 Power BI Dashboard
+1️⃣ **Data Ingestion**
+   - 🏗 **Sources:** NYC Taxi Web API (Parquet files) & GitHub CSVs  
+   - 🚀 Data is ingested into **ADLS (Bronze Layer)** via **Azure Data Factory (ADF)**  
+   ⬇
+
+2️⃣ **Data Processing & Transformation**
+   - 🔑 **Microsoft Entra ID** ensures secure authentication for **Databricks**  
+   - 🏗 Raw data undergoes **cleaning, validation, and structuring** into the **Silver Layer**  
+   - 🛠 Transformation logic is applied to create **optimized Delta Tables** in the **Gold Layer**  
+   ⬇
+
+3️⃣ **Data Visualization & Insights**
+   - 📡 **Gold Layer Delta Tables** are directly connected to **Power BI**  
+   - 📊 Advanced **interactive dashboards** provide actionable business insights  
+
 
 ![NycTaxiArch](https://github.com/user-attachments/assets/06654f39-c2c2-4975-be72-fa0a954d176d)
 
@@ -56,11 +62,10 @@ This project demonstrates a **scalable data pipeline** using **Microsoft Azure**
 ---
 
 ## 📌 Key Takeaways
-✅ End-to-end **data pipeline automation** with ADF & Databricks  
-✅ **Medallion Architecture** implementation for structured processing  
-✅ Secure authentication with **Microsoft Entra ID**  
-✅ **Optimized Delta Tables** for faster querying in Power BI  
-
+✅ **Automated, end-to-end data pipeline** with ADF & Databricks  
+✅ **Structured Medallion Architecture** for optimized data processing  
+✅ 🔐 **Secure authentication and access management** via Microsoft Entra ID  
+✅ 🚀 **Performance-optimized Delta Tables** for seamless Power BI integration  
 ---
 
 ## 🔚 Conclusion
@@ -69,4 +74,3 @@ This project showcases an **end-to-end data engineering workflow**, leveraging *
 ---
 
 🚀 **Happy Coding!**
-
