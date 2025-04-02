@@ -32,7 +32,10 @@ This project demonstrates a **scalable data pipeline** using **Microsoft Azure**
    ⬇ (Transformation & Delta Table Creation)
 💰 ADLS - Gold Layer (Optimized Data for Analysis)
    ⬇ (Connected to Power BI)
-📊 Power BI Dashboard (Final Insights)
+📊 Power BI Dashboard
+
+![Uploading NycTaxiArch.png…]()
+
 ```
 
 ---
